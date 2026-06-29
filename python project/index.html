@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rushabh Jewels | Premium E-Commerce</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #fdfcfb; }
+        .serif { font-family: 'Playfair Display', serif; }
+        .leather-bg { background-color: #5d4037; background-image: url('https://www.transparenttextures.com/patterns/leather.png'); }
+        .product-card:hover img { transform: scale(1.05); }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    img[src=""] { display: none !important; }
+        img:not([src]) { display: none !important; }
+    </style>
+</head>
+<body>
+
+    <div class="bg-stone-900 text-white text-[10px] py-2 text-center tracking-widest uppercase">
+        Free Shipping on all Orders above ₹50,000 | Limited Time Offer
+    </div>
+
+    <nav class="bg-white/80 backdrop-blur-md border-b sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-9 h-9 bg-black flex items-center justify-center rounded shadow-lg">
+                    <span class="text-white font-bold text-xl italic">R</span>
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-bold tracking-[0.2em] text-sm uppercase">Rushabh</span>
+                    <span class="text-[9px] tracking-[0.4em] uppercase text-gray-500 -mt-1">Jewels</span>
+                </div>
+            </div>
+
+            <div class="hidden lg:flex space-x-8 text-[11px] font-semibold uppercase tracking-widest text-gray-800">
+                <a href="#" class="hover:text-amber-700 transition">Collections</a>
+                <a href="#" class="hover:text-amber-700 transition">Necklaces</a>
+                <a href="#" class="hover:text-amber-700 transition">Bangles</a>
+                <a href="#" class="hover:text-amber-700 transition">Monthly Plan</a>
+                <a href="#" class="hover:text-amber-700 transition">Customized</a>
+            </div>
+
+            <div class="flex items-center space-x-6 text-gray-700">
+                <div class="relative hidden md:block">
+                    <input type="text" placeholder="Search..." class="bg-gray-100 rounded-full px-4 py-1 text-sm outline-none w-40 focus:w-60 transition-all border border-transparent focus:border-amber-200">
+                    <i data-lucide="search" class="w-4 h-4 absolute right-3 top-2 text-gray-400"></i>
+                </div>
+                <i data-lucide="user" class="w-5 h-5 cursor-pointer hover:text-amber-800" onclick="toggleModal()"></i>
+                <div class="relative cursor-pointer group">
+                    <i data-lucide="shopping-cart" class="w-5 h-5 hover:text-amber-800"></i>
+                    <span class="absolute -top-2 -right-2 bg-amber-800 text-white text-[9px] rounded-full w-4 h-4 flex items-center justify-center font-bold">2</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative h-[500px] flex items-center overflow-hidden">
+        <img src="" class="absolute inset-0 w-full h-full object-cover brightness-75" alt="Banner">
+        <div class="container mx-auto px-6 relative z-10 text-white">
+            <h2 class="serif text-5xl md:text-7xl mb-4 leading-tight">Timeless<br>Elegance</h2>
+            <p class="text-lg md:text-xl font-light italic opacity-90 mb-8">A promise of quality, purity, and beautiful design.</p>
+            <div class="flex space-x-4">
+                <button class="bg-white text-black px-8 py-3 font-semibold uppercase text-xs tracking-widest hover:bg-amber-100 transition shadow-xl">Shop Now</button>
+                <button class="border border-white text-white px-8 py-3 font-semibold uppercase text-xs tracking-widest hover:bg-white hover:text-black transition">View Lookbook</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="container mx-auto px-4 py-16">
+        <div class="flex items-center justify-between mb-10">
+            <h3 class="serif text-3xl">Shop By Category</h3>
+            <a href="#" class="text-amber-800 text-xs font-bold uppercase tracking-widest border-b border-amber-800 pb-1">View All</a>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="group cursor-pointer">
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-500">
+                    <img src="" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                    <p class="p-4 text-center font-bold text-xs tracking-widest uppercase">Earrings</p>
+                </div>
+            </div>
+            <div class="group cursor-pointer">
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-500">
+                    <img src="" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                    <p class="p-4 text-center font-bold text-xs tracking-widest uppercase">Rings</p>
+                </div>
+            </div>
+            <div class="group cursor-pointer">
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-500">
+                    <img src="" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                    <p class="p-4 text-center font-bold text-xs tracking-widest uppercase">Pendants</p>
+                </div>
+            </div>
+            <div class="group cursor-pointer">
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-500">
+                    <img src="" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                    <p class="p-4 text-center font-bold text-xs tracking-widest uppercase">Bangles</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-stone-50 py-16">
+        <div class="container mx-auto px-4">
+            <h3 class="serif text-3xl text-center mb-2">New Arrivals</h3>
+            <p class="text-center text-gray-500 italic mb-12">Handpicked treasures, just for you.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-4 rounded-lg shadow-sm group relative overflow-hidden">
+                    <div class="absolute top-4 right-4 z-10 space-y-2 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                        <button class="bg-white p-2 rounded-full shadow-md hover:bg-amber-800 hover:text-white transition"><i data-lucide="heart" class="w-4 h-4"></i></button>
+                    </div>
+                    <div class="overflow-hidden rounded-md mb-4 bg-gray-50">
+                        <img src="" class="w-full h-64 object-contain transition duration-500 group-hover:scale-105">
+                    </div>
+                    <h4 class="text-sm font-semibold text-gray-800">Gold Plated Mangalsutra</h4>
+                    <p class="text-xs text-gray-400 mt-1">22KT Gold | 18.3g</p>
+                    <div class="flex items-center justify-between mt-4">
+                        <span class="text-amber-900 font-bold">₹85,400</span>
+                        <button class="bg-stone-900 text-white p-2 rounded hover:bg-amber-800 transition"><i data-lucide="shopping-cart" class="w-4 h-4"></i></button>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm group">
+                    <div class="overflow-hidden rounded-md mb-4 bg-gray-50">
+                        <img src="" class="w-full h-64 object-contain transition duration-500 group-hover:scale-105">
+                    </div>
+                    <h4 class="text-sm font-semibold text-gray-800">Antique Bridal Necklace</h4>
+                    <p class="text-xs text-gray-400 mt-1">24KT Gold | 42.1g</p>
+                    <div class="flex items-center justify-between mt-4">
+                        <span class="text-amber-900 font-bold">₹2,45,000</span>
+                        <button class="bg-stone-900 text-white p-2 rounded hover:bg-amber-800 transition"><i data-lucide="shopping-cart" class="w-4 h-4"></i></button>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm group">
+                    <div class="overflow-hidden rounded-md mb-4 bg-gray-50">
+                        <img src="" class="w-full h-64 object-contain transition duration-500 group-hover:scale-105">
+                    </div>
+                    <h4 class="text-sm font-semibold text-gray-800">Diamond Drop Pendants</h4>
+                    <p class="text-xs text-gray-400 mt-1">18KT Gold | 5.2g</p>
+                    <div class="flex items-center justify-between mt-4">
+                        <span class="text-amber-900 font-bold">₹42,000</span>
+                        <button class="bg-stone-900 text-white p-2 rounded hover:bg-amber-800 transition"><i data-lucide="shopping-cart" class="w-4 h-4"></i></button>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm group">
+                    <div class="overflow-hidden rounded-md mb-4 bg-gray-50">
+                        <img src="" class="w-full h-64 object-contain transition duration-500 group-hover:scale-105">
+                    </div>
+                    <h4 class="text-sm font-semibold text-gray-800">Vedic Charm Bangles</h4>
+                    <p class="text-xs text-gray-400 mt-1">22KT Gold | 32.5g</p>
+                    <div class="flex items-center justify-between mt-4">
+                        <span class="text-amber-900 font-bold">₹1,90,200</span>
+                        <button class="bg-stone-900 text-white p-2 rounded hover:bg-amber-800 transition"><i data-lucide="shopping-cart" class="w-4 h-4"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="loginModal" class="hidden fixed inset-0 z-[100] bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl w-full max-w-4xl flex flex-col md:row overflow-hidden relative shadow-2xl">
+            <button onclick="toggleModal()" class="absolute top-5 right-5 text-gray-400 hover:text-black z-10"><i data-lucide="x"></i></button>
+            <div class="flex flex-col md:flex-row h-full">
+                <div class="md:w-1/2 leather-bg p-12 flex flex-col items-center justify-center text-white text-center min-h-[300px]">
+                    <div class="border-y-2 border-white/50 py-6 px-4 mb-4">
+                        <h2 class="text-2xl font-bold tracking-[0.3em]">RUSHABH</h2>
+                        <p class="text-[10px] tracking-[0.5em] font-light">JEWELS</p>
+                    </div>
+                    <p class="text-xs opacity-70 italic uppercase tracking-widest">Crafting Memories Since 1995</p>
+                </div>
+                <div class="md:w-1/2 p-10 bg-white">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Welcome Back!</h3>
+                    <p class="text-xs text-gray-500 mb-8">Sign Up or Sign In for Exclusive Benefits</p>
+                    <label class="block text-xs font-bold text-amber-900 mb-3 uppercase tracking-widest">WhatsApp Number</label>
+                    <div class="flex items-center border border-gray-200 rounded-lg p-3 bg-gray-50 mb-6">
+                        <img src="https://flagcdn.com/w20/in.png" class="w-5 mr-3">
+                        <span class="text-gray-600 font-medium mr-3">+91</span>
+                        <input type="tel" placeholder="Mobile Number" class="bg-transparent outline-none w-full text-sm">
+                    </div>
+                    <button class="w-full bg-[#8b6d5c] text-white py-4 rounded-lg font-bold tracking-widest hover:bg-[#6f5649] transition shadow-lg">CONTINUE</button>
+                    <p class="text-center text-[10px] text-gray-400 mt-6">By continuing, I agree to Terms & Conditions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-stone-900 text-white pt-20 pb-10">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div>
+                <h4 class="serif text-xl mb-6">Rushabh Jewels</h4>
+                <p class="text-gray-400 text-sm leading-loose">A promise of quality, purity, and beautiful design. Exquisite jewellery crafted for your most precious moments.</p>
+                <div class="flex space-x-4 mt-8">
+                    <i data-lucide="instagram" class="w-5 h-5 text-gray-400 hover:text-white cursor-pointer"></i>
+                    <i data-lucide="facebook" class="w-5 h-5 text-gray-400 hover:text-white cursor-pointer"></i>
+                    <i data-lucide="twitter" class="w-5 h-5 text-gray-400 hover:text-white cursor-pointer"></i>
+                </div>
+            </div>
+            <div>
+                <h5 class="text-xs font-bold uppercase tracking-widest mb-6">Quick Links</h5>
+                <ul class="text-gray-400 text-sm space-y-4 italic">
+                    <li class="hover:text-amber-500 transition cursor-pointer">About Our Founder</li>
+                    <li class="hover:text-amber-500 transition cursor-pointer">Customization Guide</li>
+                    <li class="hover:text-amber-500 transition cursor-pointer">11+1 Savings Plan</li>
+                    <li class="hover:text-amber-500 transition cursor-pointer">Store Locator</li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="text-xs font-bold uppercase tracking-widest mb-6">Help & Support</h5>
+                <ul class="text-gray-400 text-sm space-y-4 italic">
+                    <li class="hover:text-amber-500 transition cursor-pointer">Track Your Order</li>
+                    <li class="hover:text-amber-500 transition cursor-pointer">Return Policy</li>
+                    <li class="hover:text-amber-500 transition cursor-pointer">Shipping Guides</li>
+                    <li class="hover:text-amber-500 transition cursor-pointer">Privacy Policy</li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="text-xs font-bold uppercase tracking-widest mb-6">Newsletter</h5>
+                <p class="text-gray-400 text-xs mb-4 italic">Get updates on new collections and offers.</p>
+                <div class="flex border-b border-gray-600 pb-2">
+                    <input type="email" placeholder="Email Address" class="bg-transparent outline-none text-xs w-full">
+                    <i data-lucide="arrow-right" class="w-4 h-4 text-gray-400"></i>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-4 border-t border-gray-800 mt-20 pt-10 text-center text-[10px] tracking-widest text-gray-500 uppercase">
+            © 2026 Rushabh Jewels. Designed for Luxury & Elegance.
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Modal Functionality
+        function toggleModal() {
+            const modal = document.getElementById('loginModal');
+            if (modal.classList.contains('hidden')) {
+                modal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            } else {
+                modal.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }
+        }
+    </script>
+</body>
+</html>
+

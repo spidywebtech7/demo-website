@@ -1,0 +1,26 @@
+RewriteEngine On
+
+# Redirect /admin to /admin.html
+RewriteRule ^admin/?$ /admin.html [L,R=301]
+
+# Disable Caching for API responses to prevent 2 min delay
+<IfModule mod_headers.c>
+    <FilesMatch "\.(php|json)$">
+        Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+        Header set Pragma "no-cache"
+        Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+        Header set X-LiteSpeed-Cache-Control "no-cache"
+    </FilesMatch>
+</IfModule>
+
+# Allow authorization headers for JWT
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+
+# Route API requests to PHP files
+RewriteRule ^api/login$ api/login.php [L,QSA]
+RewriteRule ^api/data$ api/data.php [L,QSA]
+RewriteRule ^api/upload$ api/upload.php [L,QSA]
+
+# Optional: Prevent directory listing
+Options -Indexes

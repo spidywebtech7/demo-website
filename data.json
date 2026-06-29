@@ -1,0 +1,186 @@
+{
+  "hero": {
+    "name": "Hero Banners",
+    "images": [
+      "assets/hero_banner.png",
+      "images/banner 2.avif",
+      "uploads/image-1781201674354.jpg",
+      "uploads/image-1781273015584.avif"
+    ]
+  },
+  "curated": {
+    "name": "Curated Collection",
+    "description": "Discover our most celebrated designs, crafted with unparalleled precision and timeless elegance.",
+    "images": [
+      "images/ring.avif",
+      "images/necklace.avif",
+      "images/earrings.avif",
+      "uploads/image-1781201881244.jpg",
+      "images/kada.avif",
+      "images/pendant.avif",
+      "images/bangles.avif",
+      "images/mangalsutra.avif",
+      "images/chain.avif",
+      "images/pendant.avif"
+    ]
+  },
+  "exclusive": {
+    "name": "Exclusive Brands",
+    "description": "For the bride who dreams in tradition and shines in modern elegance our diamond and Polki creations bring together brilliance, heritage, and a touch of celestial charm.",
+    "images": [
+      "uploads/image-1781201917734.jpg"
+    ]
+  },
+  "promo": {
+    "name": "Promotional Banner",
+    "images": [
+      "images/banner 1.avif"
+    ]
+  },
+  "elegant": {
+    "name": "Timeless Elegance",
+    "description": "",
+    "images": [
+      "uploads/image-1781201944085.jpg",
+      "uploads/image-1781201963070.jpg",
+      "uploads/image-1781201954717.jpg"
+    ]
+  },
+  "signature_owner": {
+    "name": "Signature Styles Owner",
+    "images": [
+      "images/owner image.avif"
+    ]
+  },
+  "signature_col1": {
+    "name": "Signature Column 1 (Left Up)",
+    "images": [
+      "images/ring.avif",
+      "images/necklace.avif",
+      "images/earrings.avif",
+      "images/kada.avif",
+      "images/bangles.avif",
+      "images/chain.avif"
+    ]
+  },
+  "signature_col2": {
+    "name": "Signature Column 2 (Middle Down)",
+    "images": [
+      "images/ring.avif",
+      "images/necklace.avif",
+      "images/earrings.avif",
+      "images/kada.avif",
+      "images/bangles.avif",
+      "images/chain.avif"
+    ]
+  },
+  "signature_col3": {
+    "name": "Signature Column 3 (Right Up)",
+    "images": [
+      "images/ring.avif",
+      "images/necklace.avif",
+      "images/earrings.avif",
+      "images/kada.avif",
+      "images/bangles.avif",
+      "images/chain.avif"
+    ]
+  },
+  "reels": {
+    "name": "Reels Videos",
+    "description": "Step into the spotlight with your favorite creators. Trends, style, and moments that inspire. All in one Reel.",
+    "images": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "insta_col1": {
+    "name": "Instagram Column 1 (Left Up)",
+    "images": [
+      "images/ring.avif",
+      "images/ring.avif",
+      "images/ring.avif",
+      "images/ring.avif"
+    ]
+  },
+  "insta_col2": {
+    "name": "Instagram Column 2 (Left Down)",
+    "images": [
+      "images/necklace.avif",
+      "images/necklace.avif",
+      "images/necklace.avif",
+      "images/necklace.avif"
+    ]
+  },
+  "insta_gallery": {
+    "name": "Instagram Center Gallery",
+    "images": [
+      "images/mangalsutra.avif",
+      "images/bangles.avif",
+      "images/ring.avif",
+      "images/earrings.avif",
+      "images/chain.avif",
+      "images/pendant.avif",
+      "images/mangalsutra.avif",
+      "images/bangles.avif",
+      "images/ring.avif"
+    ]
+  },
+  "insta_col3": {
+    "name": "Instagram Column 3 (Right Up)",
+    "images": [
+      "images/earrings.avif",
+      "images/earrings.avif",
+      "images/earrings.avif",
+      "images/earrings.avif"
+    ]
+  },
+  "insta_col4": {
+    "name": "Instagram Column 4 (Right Down)",
+    "images": [
+      "images/bangles.avif",
+      "images/bangles.avif",
+      "images/bangles.avif",
+      "images/bangles.avif"
+    ]
+  },
+  "rc_marquee": {
+    "name": "Horizontal Marquee (Mangalsutras)",
+    "images": [
+      "images/mangalsutra.avif",
+      "images/mangalsutra.avif",
+      "images/mangalsutra.avif",
+      "images/mangalsutra.avif",
+      "images/mangalsutra.avif",
+      "images/mangalsutra.avif",
+      "images/mangalsutra.avif",
+      "images/mangalsutra.avif"
+    ]
+  },
+  "latest_row1": {
+    "name": "Latest Collection (Row 1 RTL)",
+    "description": "Explore our latest arrivals, crafted with precision to elevate your style and celebrations.",
+    "images": [
+      "images/ring.avif",
+      "images/ring.avif",
+      "images/ring.avif",
+      "images/ring.avif",
+      "images/ring.avif",
+      "images/ring.avif",
+      "images/bangle.avif",
+      "images/ring.avif"
+    ]
+  },
+  "latest_row2": {
+    "name": "Latest Collection (Row 2 LTR)",
+    "images": [
+      "images/ring.avif",
+      "images/ring.avif",
+      "images/ring.avif"
+    ]
+  }
+}
