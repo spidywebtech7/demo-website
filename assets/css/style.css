@@ -356,3 +356,7 @@ a {
     color: #666;
     font-size: 14px;
 }
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 991px) { .top-header .container { flex-direction: column; text-align: center; gap: 10px; } .top-contact a { display: block; margin-bottom: 5px; } .hero-content h1 { font-size: 40px; } .hero-content p { font-size: 18px; } .section-title h2 { font-size: 32px; } .navbar-collapse { background: var(--black); padding: 15px; border-radius: 8px; margin-top: 10px; border: 1px solid var(--primary-gold); } .nav-link { margin: 5px 0; } }
+@media (max-width: 576px) { .hero-content h1 { font-size: 32px; } .btn-gold, .btn-outline-gold { padding: 10px 20px; font-size: 14px; width: 100%; margin-bottom: 10px; } .hero-content .d-flex { flex-direction: column; } .counter { font-size: 36px !important; } }
